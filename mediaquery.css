@@ -244,9 +244,22 @@
     }
     
     .steps{
-        width: 300px;
-        clear: both;
+        width: 250px;
+        float: none;
         display: block;
+        margin: 40px auto;
+    }
+    
+    .step_number{
+        width: 150px;
+    }
+    
+    .step_icon{
+        width: 150px;
+    }
+    
+    .setsumei{
+        font-size: 14px;
     }
     
     .feature {
@@ -254,8 +267,10 @@
         height: auto;
         margin: 10px;
         padding: 15px 5px;
-        
-        border: 2px #fafafa solid;
+        border: 2px #282828 solid;
+    }
+    .feature p{
+        font-size: 14px;
     }
     .right-side {
         width: 100%;
@@ -276,7 +291,7 @@
     .contact_list > li > input {
         color: #ffffff;
         width: 330px;
-        border-bottom: 1px solid #fafafa;
+        border-bottom: 1px solid #282828;
     }
     .contact_list >li > textarea {
         width: 330px;
@@ -289,11 +304,16 @@
         border: none;
         border-radius: 15px;
         padding: 8px;
-        background-color: #fafafa;
-        color: #ff6347;
+        background-color: #ff6347;
+        color: #fafafa;
         transition: 0.3s;
     }
-    .q, .an{
+    .character{
+        width: 100px;
         margin-top: 30px;
+        font-size: 10px;
+    }
+    .character img{
+        width: 100px;
     }
 }
