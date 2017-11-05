@@ -21,7 +21,7 @@ $(function () {
         });
         // Nav Toggle Button
         $('#nav-toggle').click(function () {
-            $header.toggleClass("open");
+            $header.toggleClass('open');
         });
     });
 })(jQuery);
