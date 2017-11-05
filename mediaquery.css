@@ -117,6 +117,9 @@
     }
     .steps{
         width: 325px;
+        float: none;
+        display: block;
+        margin: 40px auto;
     }
     
     .feature {
@@ -187,7 +190,7 @@
         position: static;
         right: 0;
         bottom: 0;
-        font-size: 14px;
+        font-size: 20px;
     }
     #global-nav ul li {
         float: none;
