@@ -210,6 +210,7 @@
         display: block;
         color: #fff;
         padding: 5px 0;
+        font-size: 15px;
     }
     #global-nav > ul > li > a:hover {
         border-bottom: none;
